@@ -1,0 +1,183 @@
+{
+  "strings": {
+    "REIKA_HANDRETURNS_NAME": "HAN-D",
+  },
+  
+  "en": {
+	"REIKA_HANDRETURNS_DESCRIPTION": "HAN-D is a slow but tough janitor bot, always ready for any type of work with a wide array of Custodian Drones by his side.<color=#CCD3E0>\n\n
+< ! > Use PROTOCOL - HURT to deal damage in between Drone hits.\n\n
+< ! > Remember that Drones' effects can be stacked.\n\n
+< ! > Activate PROTOCOL - OVERCLOCK for a quick damage and speed boost.\n\n
+< ! > PROTOCOL - REASSEMBLY can be used for high single target damage, or to knock back large groups of enemies!",
+	"REIKA_HANDRETURNS_SUBTITLE": "Dedicated Employee",
+	"REIKA_HANDRETURNS_LORE": "It was 8:06 AM, and the robot’s old mop kept swinging away at the lower floors of the bridge. It did this every morning and everyone knew its routine. 
+Everyone present at the time anyways. First the lower floors, then the lookout deck, then the navigation wing.\r\n\r\n
+Somewhere else on the ship, General Miko was rushing past the mess hall, again. The CHEF bot jokingly cheered her as she passed by. She nodded and waved past the engineers sitting on the tables.
+Her fretting expression turned into annoyance knowing the HAN-D bot would be in her way again.\r\n\r\n
+“Is she even in sight?” The Captain had gotten up from his desk, put up a wet sign on the floor below and leaned on the bridge door. The robot let up from its mop and peeked out of the corner into the hallway. 
+It could make out a rough silhouette of a rapidly approaching figure. It turned back and cheeped at the Captain in confirmation.\r\n\r\n
+“Out of the way!” The woman shouted while the robot obliged, much to her surprise. He moved back and let her through. She tried to skimp past the Captain’s blasé gaze when she noticed the sign and quickly 
+remembered the last time she went through the entrance without the sign.\r\n\r\n
+Not willing to embarrass herself, she made a snappy move past the sign. Her boots started sliding across the floor and she knew she had made the wrong choice. All it took was the sound of her buttocks slamming on the 
+floor and her papers flying all over for the entire bridge to burst out in laughter.\r\n\r\n
+The robot, for once, had a visible reply. It tipped its hat and quickly bolted out of the bridge. The Captain simply shrugged and went back to his station while Miko laughed to herself.",
+	"REIKA_HANDRETURNS_MASTERY_SKIN_NAME": "Repairman",
+	"REIKA_HANDRETURNS_OUTRO_FLAVOR": "..and so it left, wishing for more dirty floors.",
+	"REIKA_HANDRETURNS_OUTRO_FAILURE": "..and so it vanished, his duty fulfilled.",
+	
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_NAME": "PROTOCOL - HURT",
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_DESCRIPTION": "Apply force to all combatants for <style=cIsDamage>100% damage</style>. Every <style=cIsDamage>4th</style> hit gives a Custodian Drone.",
+	
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_NAME": "HEALTH_DRONE.HND",
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>Agile</style>. Fire a seeking Drone for <style=cIsDamage>100% damage</style>, gaining <style=cIsHealth>health</style> on hit. <style=cIsUtility>Gain Drones by neutralizing combatants</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_NAME": "SPEED_DRONE.NMD",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "Aim and fire a fast Drone for <style=cIsDamage>100% damage</style>, briefly increasing attack speed on hit. <style=cIsUtility>Gain Drones by neutralizing combatants</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_NAME": "BLAST_DRONE.RMR",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>Stunning</style>. Lock and fire an exploding Drone for <style=cIsDamage>100% damage</style>, extending Overclock on hit. <style=cIsUtility>Gain Drones by neutralizing combatants</style>.",
+
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_NAME": "PROTOCOL - OVERCLOCK",
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "Briefly increase <style=cIsUtility>attack and movement speed by 30%</style>. Use again to boost yourself forward. <style=cIsDamage>Hits</style>extend duration.",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_NAME": "PROTOCOL - ENHANCE",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_DESCRIPTION": "Upgrade your Drones, gaining additional bonuses while unfired. <style=cIsUtility>Can be used on allies</style>. <style=cIsDamage>Drone uses</style> extend duration.",
+	
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_NAME": "PROTOCOL - REASSEMBLY",
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_DESCRIPTION": "Charge your hammer, dealing <style=cIsDamage>500%-2000% damage</style> to all combatants. <style=cIsUtility>Charge speed scales with attack speed</style>.",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_NAME": "PROTOCOL - DISASSEMBLY",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_DESCRIPTION": "Rip and tear combatants apart, dealing <style=cIsDamage>5x95% damage</style>. Damage decays while held. <style=cIsUtility>Scales with attack speed</style>.",
+	
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_NAME": "Work-ready",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_DESCRIPTION": "Find and repair every basic drone in a single run.",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "HAN-D: Mastery",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "As HAN-D, beat the game or obliterate on Monsoon.",
+  },
+  
+  "es-ES": {
+    "REIKA_HANDRETURNS_NAME": "HAN-DY",
+	"REIKA_HANDRETURNS_DESCRIPTION": "HAN-DY es un resiliente robot-conserje, siempre listo para cualquier trabajo con una gran variedad de Drones Ayudantes a su lado.<color=#CCD3E0>\n\n
+< ! > Usa PROTOCOLO - GOLPEAR para atacar entre usos de Drones.\n\n
+< ! > Recuerda  que los efectos de los Drones son aditivos.\n\n
+< ! > PROTOCOLO - ACELERAR te dara un aumento en daño y movimiento.\n\n
+< ! > ¡PROTOCOLO - REUNIR puede ser usado en un solo enemigo o para alejar varios combatientes!",
+	"REIKA_HANDRETURNS_SUBTITLE": "Empleado Dedicado",
+	"REIKA_HANDRETURNS_LORE": "pene",
+	"REIKA_HANDRETURNS_MASTERY_SKIN_NAME": "Reparador",
+	"REIKA_HANDRETURNS_OUTRO_FLAVOR": "... y se marcho, deseando mas suelos que limpiar.",
+	"REIKA_HANDRETURNS_OUTRO_FAILURE": "... y desaparecio, habiendo completado su trabajo.",
+	
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_NAME": "PROTOCOLO - GOLPEAR",
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_DESCRIPTION": "Aplica gran fuerza a todos los combatientes con <style=cIsDamage>100% de daño</style>. Cada <style=cIsDamage>4</style> golpes da un Dron.",
+	
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_NAME": "DRON_SALUD.HND",
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>Ágil</style>. Dispara un Dron buscador con <style=cIsDamage>100% de daño</style>, regresando <style=cIsHealth>salud</style> al contacto. <style=cIsUtility>Gana Drones neutralizando enemigos</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_NAME": "DRON_VELOCIDAD.NMD",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "Apunta y dispara un Dron rapido con <style=cIsDamage>100% de daño</style>, incrementando velocidad de ataque brevemente al contacto. <style=cIsUtility>Gana Drones neutralizando enemigos</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_NAME": "DRON_ATAQUE.RMR",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>Aturde</style>. Apunta automaticamente y dispara un Dron explosive de <style=cIsDamage>100% de daño</style>, extediendo PROTOCOLO - ACELERAR al contacto. <style=cIsUtility>Gana Drones neutralizando enemigos</style>.",
+
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_NAME": "PROTOCOLO - ACELERAR",
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "Incrementa brevemente tu <style=cIsUtility>velocidad de ataque y movimiento por 30%</style>. Usa de nuevo para impulsarte. <style=cIsDamage>Golpear</style> extiende la duracion.",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_NAME": "PROTOCOLO - MEJORAR",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_DESCRIPTION": "Potencia tus Drones, dandoles mejoras mientras no sean disparados. <style=cIsUtility>Se puede usar en aliados</style>. <style=cIsDamage>Usos de Drones</style> extienden la duracion.",
+	
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_NAME": "PROTOCOLO - APLASTAR",
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_DESCRIPTION": "Carga tu mazo, infligiendo <style=cIsDamage>500%-2000% daño</style> a todos los combatientes. <style=cIsUtility>La velocidad de carga escala con la velocidad de ataque</style>.",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_NAME": "PROTOCOLO - DESHACER",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_DESCRIPTION": "Corta y destroza combatientes cercanos, infligiendo <style=cIsDamage>5x95% daño</style>. Daño baja durante el uso. <style=cIsUtility>La velocidad de carga escala con la velocidad de ataque</style>.",
+	
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_NAME": "Listo para trabajar",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_DESCRIPTION": "Encuentra y repara todos los drones basicos en una única partida.",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "HAN-DY: Maestria",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "Con HAN-DY, completa el juego o destrúyete en Monzón.",
+  },
+  
+  "FR": {
+    "REIKA_HANDRETURNS_NAME": "D-GOURDI",
+	"REIKA_HANDRETURNS_DESCRIPTION": "Je suis un chat au chocolat.<color=#CCD3E0>\n\n
+< ! > Kullanım PROTOKULÜ - Dron saldırıları arasında hasar vermek için HASAR AL.\n\n
+< ! > Dron efeklerinin katlanabileceğini unutma.\n\n
+< ! > Aktivasyon PROTOKOLÜ - Hızlı bir hasar ve hız artırımı için İVMELEN.\n\n
+< ! > PROTOCOL - REASSEMBLY can be used for high single target damage, or to knock back large groups of enemies!",
+	"REIKA_HANDRETURNS_SUBTITLE": "Employé Dévoué",
+	"REIKA_HANDRETURNS_LORE": "pénis",
+	"REIKA_HANDRETURNS_MASTERY_SKIN_NAME": "Bricolo",
+	"REIKA_HANDRETURNS_OUTRO_FLAVOR": "... et c'est ainsi qu'il partit, en cherche des planchers plus sallée.",
+	"REIKA_HANDRETURNS_OUTRO_FAILURE": "... et c'est ainsi qu'il disparut, avez laissé ses devoirs accomplis.",
+  },
+  
+  "tr": {
+    "REIKA_HANDRETURNS_NAME": "HEN-DI",
+	"REIKA_HANDRETURNS_DESCRIPTION": "HEN-DI yavaş ama dayanıklı bir temizlik robotu, geniş Custadian Dronu yelpazesi ile her zaman herhangi bir iş için hazırlıklıdır.<color=#CCD3E0>\n\n
+< ! > Kullanım PROTOKULÜ - Dron saldırıları arasında hasar vermek için HASAR AL.\n\n
+< ! > Dron efeklerinin katlanabileceğini unutma.\n\n
+< ! > Aktivasyon PROTOKOLÜ - Hızlı bir hasar ve hız artırımı için İVMELEN.\n\n
+< ! > PROTOKOL - YENİDEN KURUNUM yüksek tekil düşman hasarı veya grupça dolaşan düşmanları geri itmek için kullanılabilir.",
+	"REIKA_HANDRETURNS_SUBTITLE": "Görevli Çalışan",
+	"REIKA_HANDRETURNS_LORE": "pénis",
+	"REIKA_HANDRETURNS_MASTERY_SKIN_NAME": "Tamirci",
+	"REIKA_HANDRETURNS_OUTRO_FLAVOR": "..ve böylece, daha fazla kirli zemin umuduyla.",
+	"REIKA_HANDRETURNS_OUTRO_FAILURE": "..ve böylece kayboldu, görevi tamamlandı.",
+	
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_NAME": "PROTOKOL - HASAR AL",
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_DESCRIPTION": "<style=cIsDamage>100% hasarla</style> bütün düşmanlara bir güç uygular, <style=cIsDamage>4</style>.cü vuruş bir Custadian Dronu verir.",
+	
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_NAME": "İYİLEŞTİRME_DRONU.HND",
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>Çevik</style>. <style=cIsDamage>100% hasarla</style> bir güdümlü Dron gönderir, hasar verdiğinde <style=cIsHealth>can</style> kazanır. <style=cIsUtility>Düşmanları imha ederek Dron kazan</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_NAME": "HIZ_DRONU.NMD",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "Nişan alarak <style=cIsDamage>100% hasar veren</style> hızlı bir dron gönderir ve kısa süreliğine saldırı hızını artırır. <style=cIsUtility>Düşmanları imha ederek Dron kazan</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_NAME": "PATLAYICI_DRON.RMR",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>Sersemletici</style> Hedefe kilitlenip <style=cIsDamage>100% hasar veren</style> bir Dron gönderir , hasar verdiğinde İVMELENME süresini uzatır. <style=cIsUtility>Düşmanları imha ederek Dron kazan</style>.",
+
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_NAME": "PROTOKOL - İVMELEN",
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "Kısa süreliğine <style=cIsUtility>hareket hızını 30% artırır</style>. İleri atılmak için tekrar kullan. <style=cIsDamage>Hasar vermek</style> süresini uzatır.",	
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_NAME": "PROTOKOL - GELİŞTİR",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_DESCRIPTION": "Dronlarını geliştir, Dronlarını göndermeyerek bonuslar kazan. <style=cIsUtility>Takım arkadaşları üzerinde kullanılabilir</style>. <style=cIsDamage>Dron kullanımları</style> süresini uzatır.",
+	
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_NAME": "PROTOKOL - YENİDEN KURUNUM",
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_DESCRIPTION": "Çekicini Şarj eder, bütün düşmanlara <style=cIsDamage>500%-2000% hasar verir</style>. <style=cIsUtility>Şarj etme hızı saldırı hızı artıkça artar</style>.",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_NAME": "PROTOCOL - PARÇALAMA",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_DESCRIPTION": "Düşmanları parçalar, <style=cIsDamage>5x95% hasar verir</style>. tuşa basılı tutulduğund ahasar azalır. <style=cIsUtility>Saldırı hızı arrtıkça hasarı da artar</style>."
+	
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_NAME": "İş-hazır",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_DESCRIPTION": "Tek seferde her basit dronu bul ve onar.",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "HEN-DI: Ustalık",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "HEN-DI olarak oyunu Muson zorluğunda bitir veya kendini yok et.",
+  },
+  
+  "pt-BR": {
+	"REIKA_HANDRETURNS_DESCRIPTION": "HAN-D é um robô zelador lento mas resistente, sempre pronto para qualquer tipo de trabalho com uma ampla variedade de Drones Custodiantes ao seu lado.
+< ! > Use PROTOCOLO - MACHUCAR para causar dano entre ataques de Drones.
+< ! > Lembre-se de que efeitos de Drones podem ser acumulados.
+< ! > Ative PROTOCOLO - ALTA FREQUÊNCIA para um rápido impulso de dano e velocidade.
+< ! > PROTOCOLO - REMONTAR pode ser usado para causar alto dano em um único alvo ou para repelir um grande grupo de inimigos!",
+	"REIKA_HANDRETURNS_SUBTITLE": "Funcionário do Mês",
+	"REIKA_HANDRETURNS_LORE": "amongus",
+	"REIKA_HANDRETURNS_MASTERY_SKIN_NAME": "Reparador",
+	"REIKA_HANDRETURNS_OUTRO_FLAVOR": "... e assim se foi, desejando mais chãos sujos.",
+	"REIKA_HANDRETURNS_OUTRO_FAILURE": "... e assim desapareceu, com seu dever cumprido.",
+	
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_NAME": "PROTOCOLO - MACHUCAR",
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_DESCRIPTION": "Aplique força a todos os combatentes para causar <style=cIsDamage>100% de dano</style>. O <style=cIsDamage>quarto</style>  acerto dá um Drone Custodiante.",
+	
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_NAME": "DRONE_CURADOR.HND",
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>Ágil</style>. Dispare um Drone  para causar <style=cIsDamage>100% de dano</style>, ganhando <style=cIsHealth>saúde</style> ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_NAME": "DRONE_RAPIDO.NMD",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "Mire e atire um Drone rápido  para causar <style=cIsDamage>100% de dano</style>, aumentando brevemente a velocidade de ataque ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_NAME": "DRONE_EXPLOSIVO.RMR",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>Atordoante</style>. Marque e dispare um Drone explosivo para causar <style=cIsDamage>100% de dano</style>, estendendo o tempo de ALTA FREQUÊNCIA ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
+
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_NAME": "PROTOCOLO - ALTA FREQUÊNCIA",
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "Aumente brevemente a <style=cIsUtility>velocidade de ataque e movimento em 30%</style>. Use novamente para se impulsionar para frente. Aumente a duração ao <style=cIsDamage>atacar</style> inimigos.",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_NAME": "PROTOCOLO - ATUALIZAR",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_DESCRIPTION": "Atualize seus Drones, ganhando bônus adicionais enquanto não estiverem disparados. <style=cIsUtility>Pode ser utilizado em aliados</style>. <style=cIsDamage>Usos de Drones</style> estendem a duração.",
+	
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_NAME": "PROTOCOLO - REMONTAR",
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_DESCRIPTION": "Carregue seu martelo, causando <style=cIsDamage>500%-2000% de dano</style> para todos os combatentes. <style=cIsUtility>A velocidade da carga aumenta com a velocidade de ataque</style>.",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_NAME": "PROTOCOLO - DESMONTAR",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_DESCRIPTION": "Despedace combatentes, causando <style=cIsDamage>5x95% de dano</style>. O dano diminui enquanto segurando. <style=cIsUtility>Escala com velocidade de ataque</style>."
+	
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_NAME": "Pronto para trabalhar",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_DESCRIPTION": "Encontre e repare todos os drones básicos em uma única corrida.",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "HAN-D: Maestria",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "Como HAN-D, vença o jogo ou aniquile em Monção.",
+  }
+}
