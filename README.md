@@ -1,4 +1,4 @@
-## HAN-D Returns
+# HAN-D Returns
 
 HAN-D is a slow but tough janitor bot, always ready for any type of work with a wide array of Custodian Drones by his side, hop into any battle alone or with fellow workers!.
 
@@ -7,33 +7,47 @@ HAN-D is a slow but tough janitor bot, always ready for any type of work with a 
 - Vanilla friendly and balanced.
 - Fully multiplayer compatible. Tell your friends!
 
-## Skills
+[![](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/lobby.jpg?raw=true)](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/lobby.jpg?raw=true)
 
-HAN-D's kit remains largely unchanged, adapted into a 3d environment, and boasting a brand new utility to make him stand out as a support character!
+- ## Skills
 
-Primary | PROTOCOL - HURT
+HAN-D's kit remains largely unchanged from Risk of Rain Returns, adapted into a 3d environment, and boasting a brand new utility to make him stand out as a support character!
 
-## Concept art, progress, and gallery
+<p><font color="#82e0aa">Primary | PROTOCOL - HURT</font></p>
+<p>- Apply force to all combatants for <font color="#f5b041">100% damage</font>. Every <font color="#f5b041">4th</font> hit gives a Custodian Drone.</p>
+
+<p><font color=" #82e0aa">Secondary | HEALTH_DRONE.HND</font></p>
+<p>- <font color="#85c1e9">Agile.</font> Fire a seeking Drone for <font color="#f5b041">100% damage</font>, gaining <font color="#7dcea0">health</font> on hit. <font color="#85c1e9">Gain Drones by neutralizing combatants</font>.</p>
+
+<p><font color="#82e0aa">Secondary Alt | SPEED_DRONE.NMD</font></p>
+<p>- Aim and fire a fast Drone for  <font color="#f5b041">100% damage</font>, briefly increasing attack speed on hit. <font color="#85c1e9">Gain Drones by neutralizing combatants</font>.</p>
+
+<p><font color="#82e0aa">Secondary Alt | BLAST_DRONE.RMR</font></p>
+<p>- <font color="#f5b041">Stunning.</font> Lock and fire an exploding Drone for <font color="#f5b041">100% damage</font>, extending Overclock on hit. <font color="#85c1e9">Gain Drones by neutralizing combatants</font>.</p>
 
 
+- ## Concept art, progress, and gallery
 
-## Known bugs and bug reports
+
+- ## Known bugs and bug reports
 
 You can report any bugs on discord directly to @reika_chang or in the #bug_reports channel in the official server: [discord i nvite xd]
 
-## Installation
+- ## Installation
 
 Move the ReikaChang-HANDReturns directory inside /RiskofRain2/profiles/yourchosenprofile/BepInEx/plugins/ or download with Thunderstore's mod manager.
 
-## Credits
+- ## Credits
 
-Reika Chang - Main developer
+Ada Phoebe - Main developer
 
 Don Quixote Fumo - General help
 
 Translators: 
-	- Phoonyx428 - Spanish proofreading
-	- Enamoured - French
-	- GoldGoldfish - Turkish
-	- LordKabewm - Russian
-	- EcIipse - Portuguese
+- Phoonyx428 - Spanish proofreading
+- enamoured - French
+- GoldGoldfish - Turkish
+- LordKabewm - Russian
+- EcIipse - Portuguese
+- Don Quixote Fumo - Chinese
+- soccmuttpet - Chinese proofreading
