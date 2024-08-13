@@ -36,7 +36,7 @@ The robot, for once, had a visible reply. It tipped its hat and quickly bolted o
 	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>Stunning</style>. Lock and fire an exploding Drone for <style=cIsDamage>100% damage</style>, extending Overclock on hit. <style=cIsUtility>Gain Drones by neutralizing combatants</style>.",
 
 	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_NAME": "PROTOCOL - OVERCLOCK",
-	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "Briefly increase <style=cIsUtility>attack and movement speed by 30%</style>. Use again to boost yourself forward. <style=cIsDamage>Hits</style>extend duration.",
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "Briefly increase <style=cIsUtility>attack and movement speed by 30%</style>. Use again to boost yourself forward. <style=cIsDamage>Hits</style> extend duration.",
 	"REIKA_HANDRETURNS_UTILITY_ENHANCE_NAME": "PROTOCOL - ENHANCE",
 	"REIKA_HANDRETURNS_UTILITY_ENHANCE_DESCRIPTION": "Upgrade your Drones, gaining additional bonuses while unfired. <style=cIsUtility>Can be used on allies</style>. <style=cIsDamage>Drone uses</style> extend duration.",
 	
@@ -144,7 +144,7 @@ The robot, for once, had a visible reply. It tipped its hat and quickly bolted o
   },
   
   "pt-BR": {
-	"REIKA_HANDRETURNS_DESCRIPTION": "HAN-D é um robô zelador lento mas resistente, sempre pronto para qualquer tipo de trabalho com uma ampla variedade de Drones Custodiantes ao seu lado.
+	"REIKA_HANDRETURNS_DESCRIPTION": "HAN-DI é um robô zelador lento mas resistente, sempre pronto para qualquer tipo de trabalho com uma ampla variedade de Drones Custodiantes ao seu lado.
 < ! > Use PROTOCOLO - MACHUCAR para causar dano entre ataques de Drones.
 < ! > Lembre-se de que efeitos de Drones podem ser acumulados.
 < ! > Ative PROTOCOLO - ALTA FREQUÊNCIA para um rápido impulso de dano e velocidade.
@@ -159,9 +159,9 @@ The robot, for once, had a visible reply. It tipped its hat and quickly bolted o
 	"REIKA_HANDRETURNS_PRIMARY_PUNCH_DESCRIPTION": "Aplique força a todos os combatentes para causar <style=cIsDamage>100% de dano</style>. O <style=cIsDamage>quarto</style>  acerto dá um Drone Custodiante.",
 	
 	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_NAME": "DRONE_CURADOR.HND",
-	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>Ágil</style>. Dispare um Drone  para causar <style=cIsDamage>100% de dano</style>, ganhando <style=cIsHealth>saúde</style> ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>Ágil</style>. Dispare um Drone para causar <style=cIsDamage>100% de dano</style>, ganhando <style=cIsHealth>saúde</style> ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
 	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_NAME": "DRONE_RAPIDO.NMD",
-	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "Mire e atire um Drone rápido  para causar <style=cIsDamage>100% de dano</style>, aumentando brevemente a velocidade de ataque ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "Mire e atire um Drone rápido para causar <style=cIsDamage>100% de dano</style>, aumentando brevemente a velocidade de ataque ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
 	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_NAME": "DRONE_EXPLOSIVO.RMR",
 	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>Atordoante</style>. Marque e dispare um Drone explosivo para causar <style=cIsDamage>100% de dano</style>, estendendo o tempo de ALTA FREQUÊNCIA ao acertar. <style=cIsUtility>Ganhe Drones ao abater inimigos</style>.",
 
@@ -177,7 +177,46 @@ The robot, for once, had a visible reply. It tipped its hat and quickly bolted o
 	
 	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_NAME": "Pronto para trabalhar",
 	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_DESCRIPTION": "Encontre e repare todos os drones básicos em uma única corrida.",
-	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "HAN-D: Maestria",
-	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "Como HAN-D, vença o jogo ou aniquile em Monção.",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "HAN-DI: Maestria",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "Como HAN-DI, vença o jogo ou aniquile em Monção.",
+  },
+  
+  "zh-CN": {
+	"REIKA_HANDRETURNS_NAME": "顺手机器人",
+	"REIKA_HANDRETURNS_DESCRIPTION": "顺手机器人是个慢却强硬的清洁工机器人，时刻准备用它身旁多样的监护无人机来完成各种任务。<color=#CCD3E0>\n\n
+< ! > 使用协议：伤害在无人机攻击冷却中来造成伤害。\n\n
+< ! > 记得可以叠加无人机的效果。\n\n
+< ! > 启动协议：超频来暂时增加伤害与移动速度。\n\n
+< ! > 协议：重装可用于对单一目标造成高伤害，或者击退大群敌人！",
+	"REIKA_HANDRETURNS_SUBTITLE": "敬业员工",
+	"REIKA_HANDRETURNS_LORE": "阴茎",
+	"REIKA_HANDRETURNS_MASTERY_SKIN_NAME": "修理工",
+	"REIKA_HANDRETURNS_OUTRO_FLAVOR": "……于是它走了，希望可以拖更多肮脏地板。",
+	"REIKA_HANDRETURNS_OUTRO_FAILURE": "……于是它就这样消逝了，完成了它的任务。",
+	
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_NAME": "协议：伤害",
+	"REIKA_HANDRETURNS_PRIMARY_PUNCH_DESCRIPTION": "对每个敌人发力造成<style=cIsDamage>100%的伤害</style>。 每<style=cIsDamage>四</style>次命中会增加一个监护无人机。",
+	
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_NAME": "维修无人机.HND",
+	"REIKA_HANDRETURNS_SECONDARY_HEALTH_DRONE_DESCRIPTION": "<style=cIsUtility>灵巧</style>。 发射一个追踪的无人机，造成<style=cIsDamage>100%的伤害</style>，命中后回复<style=cIsHealth>生命值</style>。<style=cIsUtility>消灭战斗员以增加无人机</style>。",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_NAME": "高速无人机.NMD",
+	"REIKA_HANDRETURNS_SECONDARY_SPEED_DRONE_DESCRIPTION": "瞄准发射一个无人机，造成<style=cIsDamage>100%的伤害</style>，命中后临时增加攻速。<style=cIsUtility>消灭战斗员以增加无人机</style>。",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_NAME": "爆破无人机.RMR",
+	"REIKA_HANDRETURNS_SECONDARY_BLAST_DRONE_DESCRIPTION": "<style=cIsDamage>眩晕</style>。 锁定后发射一个爆炸的无人机，造成<style=cIsDamage>100%的伤害</style>，命中后会延长超频。<style=cIsUtility>消灭战斗员以增加无人机</style>。",
+
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_NAME": "协议：超频",
+	"REIKA_HANDRETURNS_UTILITY_OVERCLOCK_DESCRIPTION": "暂时增加<style=cIsUtility>30%的攻速与移动速度</style>。再次使用来向前推进。<style=cIsDamage>命中战斗</style>员会延长持续时间。",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_NAME": "协议：加强",
+	"REIKA_HANDRETURNS_UTILITY_ENHANCE_DESCRIPTION": "升级你的无人机，闲置时给予额外效果。<style=cIsUtility>可用于盟友</style>。<style=cIsDamage>使用无人机</style>来延长持续时间。",
+	
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_NAME": "协议：重装",
+	"REIKA_HANDRETURNS_SPECIAL_HAMMER_DESCRIPTION": "蓄力发动你的锤子，对每个敌人造成<style=cIsDamage>500%-2000%的伤害</style>。<style=cIsUtility>攻速提高蓄力速度</style>。",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_NAME": "协议：拆解",
+	"REIKA_HANDRETURNS_SPECIAL_SAW_DESCRIPTION": "连续撕裂战斗员，<style=cIsDamage>造成5x95%的伤害</style>。 伤害随着连续使用时间衰减。 <style=cIsUtility>攻速提高撕裂次数</style>。",
+	
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_NAME": "工作准备就绪",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_UNLOCK_ACHIEVEMENT_DESCRIPTION": "在一轮游戏中找到和修理每个基本无人机。",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_NAME": "顺手机器人: 精通",
+	"ACHIEVEMENT_REIKA_HANDRETURNS_MASTERY_ACHIEVEMENT_DESCRIPTION": "作为顺手机器人，在季风难度下通关游戏或抹除自己。",
   }
 }

@@ -2,7 +2,7 @@
     "name": "HAN-D Returns",
     "author": "ReikaChang",
     "version_number": "1.0.0",
-    "website_url": "",
+    "website_url": "https://github.com/634R-64M35/HAN-D_Returns",
     "description": "Adds a new take on the HAN-D survivor from Risk of Rain Returns!",
     "dependencies": [
         "bbepis-BepInExPack-5.4.1905",
