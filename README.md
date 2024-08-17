@@ -7,7 +7,7 @@ HAN-D is a slow but tough janitor bot, always ready for any type of work with a 
 - Vanilla friendly and balanced.
 - Fully multiplayer compatible. Tell your friends!
 
-[![](https://github.com/634R-64M35/HAN-D_Returns/tree/main/Blender/HAN-DPortrait.png?raw=true)](https://github.com/634R-64M35/HAN-D_Returns/tree/main/Blender/HAN-DPortrait.png?raw=true)
+[![HAN-D Portrait](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/HAN-DPortrait.png?raw=true)](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/HAN-DPortrait.png?raw=true)
 
 - ## Skills
 
@@ -31,7 +31,7 @@ HAN-D's kit remains largely unchanged from Risk of Rain Returns, adapted into a 
 
 - ## Known bugs and bug reports
 
-You can report any bugs on discord directly to @reika_chang or in the #bug_reports channel in the official server: [discord i nvite xd]
+You can report any bugs on discord directly to @reika_chang or in the #bug_reports channel in the official server: [Reika's Mod Server](https://discord.gg/gHf959Rutr)
 
 - ## Installation
 
@@ -43,11 +43,10 @@ Ada Phoebe - Main developer
 
 Don Quixote Fumo - General help
 
-Translators: 
-- Phoonyx428 - Spanish proofreading
+Translators:
+- Phoonyx428 - Spanish
 - enamoured - French
 - GoldGoldfish - Turkish
-- LordKabewm - Russian
-- EcIipse - Portuguese
-- Don Quixote Fumo - Chinese
-- soccmuttpet - Chinese proofreading
+- EcIipse | Arae - Portuguese
+- Don Quixote Fumo | soccmuttpet - Chinese
+- Pengolin, Fire Devourer | LordKabewm - Russian
