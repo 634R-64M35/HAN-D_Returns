@@ -7,7 +7,7 @@ HAN-D is a slow but tough janitor bot, always ready for any type of work with a 
 - Vanilla friendly and balanced.
 - Fully multiplayer compatible. Tell your friends!
 
-[![](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/lobby.jpg?raw=true)](https://github.com/Moffein/HAN-D_OVERCLOCKED/blob/master/RELEASE/images/lobby.jpg?raw=true)
+[![](HAN-D Portrait)](https://github.com/634R-64M35/HAN-D_Returns/tree/main/Blender/HAN-DPortrait.png?raw=true)
 
 - ## Skills
 
