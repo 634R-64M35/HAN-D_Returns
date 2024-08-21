@@ -1,13 +1,10 @@
 ﻿using RoR2;
 using UnityEngine;
 using HANDReturns.Modules;
-using System;
 using RoR2.Projectile;
 
-namespace HANDReturns.Survivors.HANDReturns
-{
-    public static class HANDReturnsAssets
-    {
+namespace HANDReturns.Survivors.HANDReturns {
+    public static class HANDReturnsAssets {
         // particle effects
         public static GameObject swordSwingEffect;
         public static GameObject swordHitImpactEffect;
@@ -22,9 +19,7 @@ namespace HANDReturns.Survivors.HANDReturns
 
         private static AssetBundle _assetBundle;
 
-        public static void Init(AssetBundle assetBundle)
-        {
-
+        public static void Init(AssetBundle assetBundle) {
             _assetBundle = assetBundle;
 
             swordHitSoundEvent = Content.CreateAndAddNetworkSoundEventDef("HANDReturnsSwordHit");
@@ -35,16 +30,14 @@ namespace HANDReturns.Survivors.HANDReturns
         }
 
         #region effects
-        private static void CreateEffects()
-        {
+        private static void CreateEffects() {
             CreateBombExplosionEffect();
 
             swordSwingEffect = _assetBundle.LoadEffect("HANDReturnsSwordSwingEffect", true);
             swordHitImpactEffect = _assetBundle.LoadEffect("ImpactHANDReturnsSlash");
         }
 
-        private static void CreateBombExplosionEffect()
-        {
+        private static void CreateBombExplosionEffect() {
             bombExplosionEffect = _assetBundle.LoadEffect("BombExplosionEffect", "HANDReturnsBombExplosion");
 
             if (!bombExplosionEffect)
@@ -67,14 +60,12 @@ namespace HANDReturns.Survivors.HANDReturns
         #endregion effects
 
         #region projectiles
-        private static void CreateProjectiles()
-        {
+        private static void CreateProjectiles() {
             CreateBombProjectile();
             Content.AddProjectilePrefab(bombProjectilePrefab);
         }
 
-        private static void CreateBombProjectile()
-        {
+        private static void CreateBombProjectile() {
             //highly recommend setting up projectiles in editor, but this is a quick and dirty way to prototype if you want
             bombProjectilePrefab = Assets.CloneProjectilePrefab("CommandoGrenadeProjectile", "HANDReturnsBombProjectile");
 

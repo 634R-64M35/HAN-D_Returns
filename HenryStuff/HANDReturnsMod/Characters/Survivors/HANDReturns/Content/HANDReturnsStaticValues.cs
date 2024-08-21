@@ -4,7 +4,7 @@ namespace HANDReturns.Survivors.HANDReturns
 {
     public static class HANDReturnsStaticValues
     {
-        public const float swordDamageCoefficient = 2.8f;
+        public const float punchDamageCoefficient = 4.8f;
 
         public const float gunDamageCoefficient = 4.2f;
 

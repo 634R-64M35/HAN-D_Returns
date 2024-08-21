@@ -54,148 +54,148 @@ namespace HANDReturns.Survivors.HANDReturns {
 
         #region Renderer infos
         public override CustomRendererInfo[] customRendererInfos => new CustomRendererInfo[] {
-                new CustomRendererInfo {
+                /*new CustomRendererInfo {
                     childName = "Crotch",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "Torso",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "Eye",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
-                    childName = "Hat",
-                    material = assetBundle.LoadMaterial("matHat"),
+                    childName = "Hat",  
                 },
                 new CustomRendererInfo {
                     childName = "Head",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "AntennaBig",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "AntennaSmall",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "Smokestack",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "DRK",
-                    material = assetBundle.LoadMaterial("matHAND"),
                 },
                 new CustomRendererInfo {
                     childName = "ShoulderBladeR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    ignoreOverlays = true,
                 },
                 new CustomRendererInfo {
                     childName = "ShoulderR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    ignoreOverlays = true,
                 },
                 new CustomRendererInfo {
                     childName = "ElbowR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    ignoreOverlays = true,
                 },
                 new CustomRendererInfo {
                     childName = "ForearmR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    ignoreOverlays = true,
                 },
                 new CustomRendererInfo {
                     childName = "ArmPistonR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    ignoreOverlays = true,
                 },
                 new CustomRendererInfo {
                     childName = "WristR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    ignoreOverlays = true,
                 },
                 new CustomRendererInfo {
                     childName = "ShoulderBladeL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ShoulderL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ElbowL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ForearmL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ArmPistonL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "WristL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ThighR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "KneeR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "LegPistonR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "CalfR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "FeetR",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ThighL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "KneeL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "LegPistonL",
-                    material = assetBundle.LoadMaterial("matHAND"),
+                    
                 },
                 new CustomRendererInfo {
                     childName = "CalfL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "FeetL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "IndexProximalL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "IndexDistalL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "MiddleProximalL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "MiddleDistalL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ThumbProximalL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "ThumbDistalL",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "IndexProximalR",
+                    
                 },
                 new CustomRendererInfo {
                     childName = "IndexDistalR",
@@ -211,7 +211,7 @@ namespace HANDReturns.Survivors.HANDReturns {
                 },
                 new CustomRendererInfo {
                     childName = "ThumbDistalR",
-                },
+                },*/
         };
         #endregion
 
@@ -240,7 +240,6 @@ namespace HANDReturns.Survivors.HANDReturns {
 
             HANDReturnsConfig.Init();
             HANDReturnsStates.Init();
-            HANDReturnsTokens.Init();
 
             HANDReturnsAssets.Init(assetBundle);
             HANDReturnsBuffs.Init(assetBundle);
@@ -258,13 +257,10 @@ namespace HANDReturns.Survivors.HANDReturns {
         private void AdditionalBodySetup() {
             AddHitboxes();
             bodyPrefab.AddComponent<HANDReturnsWeaponComponent>();
-            //bodyPrefab.AddComponent<HuntressTrackerComopnent>();
         }
 
         public void AddHitboxes() {
-            //example of how to create a HitBoxGroup. see summary for more details
             Prefabs.SetupHitBoxGroup(characterModelObject, "PunchGroup", "PunchHitbox");
-            Prefabs.SetupHitBoxGroup(characterModelObject, "HammerGroup", "HammerHitbox");
         }
 
         public override void InitializeEntityStateMachines() {
@@ -294,35 +290,34 @@ namespace HANDReturns.Survivors.HANDReturns {
 
             //the primary skill is created using a constructor for a typical primary
             //it is also a SteppedSkillDef. Custom Skilldefs are very useful for custom behaviors related to casting a skill. see ror2's different skilldefs for reference
-            SteppedSkillDef primaryPunchDef = Skills.CreateSkillDef<SteppedSkillDef>(new SkillDefInfo (
-                    "HANDReturnsPunch",
+            SteppedSkillDef primaryPunchSkillDef = Skills.CreateSkillDef<SteppedSkillDef>(new SkillDefInfo (
+                    "BasePunch",
                     HANDReturns_PREFIX + "PRIMARY_PUNCH_NAME",
                     HANDReturns_PREFIX + "PRIMARY_PUNCH_DESCRIPTION",
                     assetBundle.LoadAsset<Sprite>("texPrimaryPunchIcon"),
-                    new EntityStates.SerializableEntityStateType(typeof(SlashCombo)),
+                    new EntityStates.SerializableEntityStateType(typeof(PunchCombo)),
                     "Weapon",
-                    true
+                    false
                 ));
-            //custom Skilldefs can have additional fields that you can set manually
-            primaryPunchDef.stepCount = 2;
-            primaryPunchDef.stepGraceDuration = 0.5f;
 
-            Skills.AddPrimarySkills(bodyPrefab, primaryPunchDef);
+            //custom Skilldefs can have additional fields that you can set manually
+            primaryPunchSkillDef.stepCount = 4;
+            primaryPunchSkillDef.stepGraceDuration = 0.5f;
+
+            Skills.AddPrimarySkills(bodyPrefab, primaryPunchSkillDef);
         }
 
         private void AddSecondarySkills() {
             Skills.CreateGenericSkillWithSkillFamily(bodyPrefab, SkillSlot.Secondary);
 
-            //here is a basic skill def with all fields accounted for
-            SkillDef secondaryHealthDroneDef = Skills.CreateSkillDef(new SkillDefInfo
-            {
+            SkillDef secondaryHealthDroneDef = Skills.CreateSkillDef(new SkillDefInfo {
                 skillName = "HealthDrone",
                 skillNameToken = HANDReturns_PREFIX + "SECONDARY_HEALTH_DRONE_NAME",
                 skillDescriptionToken = HANDReturns_PREFIX + "SECONDARY_HEALTH_DRONE_DESCRIPTION",
                 keywordTokens = new string[] { "KEYWORD_AGILE" },
                 skillIcon = assetBundle.LoadAsset<Sprite>("texSecondaryHealthIcon"),
 
-                activationState = new EntityStates.SerializableEntityStateType(typeof(Shoot)),
+                activationState = new EntityStates.SerializableEntityStateType(typeof(ShootDrone)),
                 activationStateMachineName = "Weapon2",
                 interruptPriority = EntityStates.InterruptPriority.Skill,
 
@@ -352,7 +347,7 @@ namespace HANDReturns.Survivors.HANDReturns {
                 skillDescriptionToken = HANDReturns_PREFIX + "SECONDARY_SPEED_DRONE_DESCRIPTION",
                 skillIcon = assetBundle.LoadAsset<Sprite>("texSecondarySpeedIcon"),
 
-                activationState = new EntityStates.SerializableEntityStateType(typeof(Shoot)),
+                activationState = new EntityStates.SerializableEntityStateType(typeof(ShootDrone)),
                 activationStateMachineName = "Weapon2",
                 interruptPriority = EntityStates.InterruptPriority.Skill,
 
@@ -380,9 +375,10 @@ namespace HANDReturns.Survivors.HANDReturns {
                 skillName = "BlastDrone",
                 skillNameToken = HANDReturns_PREFIX + "SECONDARY_BLAST_DRONE_NAME",
                 skillDescriptionToken = HANDReturns_PREFIX + "SECONDARY_BLAST_DRONE_DESCRIPTION",
+                keywordTokens = new string[] { "KEYWORD_STUNNING" },
                 skillIcon = assetBundle.LoadAsset<Sprite>("texSecondaryBlastIcon"),
 
-                activationState = new EntityStates.SerializableEntityStateType(typeof(Shoot)),
+                activationState = new EntityStates.SerializableEntityStateType(typeof(ShootDrone)),
                 activationStateMachineName = "Weapon2",
                 interruptPriority = EntityStates.InterruptPriority.Skill,
 
@@ -414,14 +410,13 @@ namespace HANDReturns.Survivors.HANDReturns {
         private void AddUtiitySkills() {
             Skills.CreateGenericSkillWithSkillFamily(bodyPrefab, SkillSlot.Utility);
 
-            //here's a skilldef of a typical movement skill.
-            SkillDef utilitySkillDef1 = Skills.CreateSkillDef(new SkillDefInfo {
-                skillName = "HANDReturnsOverclock",
+            SkillDef utilityOverclockSkillDef = Skills.CreateSkillDef(new SkillDefInfo {
+                skillName = "Overclock",
                 skillNameToken = HANDReturns_PREFIX + "UTILITY_OVERCLOCK_NAME",
                 skillDescriptionToken = HANDReturns_PREFIX + "UTILITY_OVERCLOCK_DESCRIPTION",
                 skillIcon = assetBundle.LoadAsset<Sprite>("texUtilityOverclockIcon"),
 
-                activationState = new EntityStates.SerializableEntityStateType(typeof(Roll)),
+                activationState = new EntityStates.SerializableEntityStateType(typeof(Overclock)),
                 activationStateMachineName = "Body",
                 interruptPriority = EntityStates.InterruptPriority.PrioritySkill,
 
@@ -444,20 +439,50 @@ namespace HANDReturns.Survivors.HANDReturns {
                 forceSprintDuringState = true,
             });
 
-            Skills.AddUtilitySkills(bodyPrefab, utilitySkillDef1);
+            SkillDef utilityEnhanceSkillDef = Skills.CreateSkillDef(new SkillDefInfo {
+                skillName = "Enhance",
+                skillNameToken = HANDReturns_PREFIX + "UTILITY_ENHANCE_NAME",
+                skillDescriptionToken = HANDReturns_PREFIX + "UTILITY_ENHANCE_DESCRIPTION",
+                skillIcon = assetBundle.LoadAsset<Sprite>("texUtilityOverclockIcon"),
+
+                activationState = new EntityStates.SerializableEntityStateType(typeof(Overclock)),
+                activationStateMachineName = "Body",
+                interruptPriority = EntityStates.InterruptPriority.PrioritySkill,
+
+                baseRechargeInterval = 4f,
+                baseMaxStock = 1,
+
+                rechargeStock = 1,
+                requiredStock = 1,
+                stockToConsume = 1,
+
+                resetCooldownTimerOnUse = false,
+                fullRestockOnAssign = true,
+                dontAllowPastMaxStocks = false,
+                mustKeyPress = false,
+                beginSkillCooldownOnSkillEnd = false,
+
+                isCombatSkill = false,
+                canceledFromSprinting = false,
+                cancelSprintingOnActivation = false,
+                forceSprintDuringState = true,
+            });
+
+            Skills.AddUtilitySkills(bodyPrefab, utilityOverclockSkillDef);
+            Skills.AddUtilitySkills(bodyPrefab, utilityEnhanceSkillDef);
         }
 
         private void AddSpecialSkills() {
             Skills.CreateGenericSkillWithSkillFamily(bodyPrefab, SkillSlot.Special);
 
             //a basic skill. some fields are omitted and will just have default values
-            SkillDef specialSkillDef1 = Skills.CreateSkillDef(new SkillDefInfo {
+            SkillDef specialHammerSkillDef = Skills.CreateSkillDef(new SkillDefInfo {
                 skillName = "HANDReturnsHammer",
                 skillNameToken = HANDReturns_PREFIX + "SPECIAL_HAMMER_NAME",
                 skillDescriptionToken = HANDReturns_PREFIX + "SPECIAL_HAMMER_DESCRIPTION",
                 skillIcon = assetBundle.LoadAsset<Sprite>("texSpecialHammerIcon"),
 
-                activationState = new EntityStates.SerializableEntityStateType(typeof(ThrowBomb)),
+                activationState = new EntityStates.SerializableEntityStateType(typeof(HammerSwing)),
                 //setting this to the "weapon2" EntityStateMachine allows us to cast this skill at the same time as the primary, which is set to the "weapon" EntityStateMachine
                 activationStateMachineName = "Weapon2", interruptPriority = EntityStates.InterruptPriority.Skill,
 
@@ -469,7 +494,27 @@ namespace HANDReturns.Survivors.HANDReturns {
                 mustKeyPress = false,
             });
 
-            Skills.AddSpecialSkills(bodyPrefab, specialSkillDef1);
+            //a basic skill. some fields are omitted and will just have default values
+            SkillDef specialSawSkillDef = Skills.CreateSkillDef(new SkillDefInfo {
+                skillName = "HANDReturnsSaw",
+                skillNameToken = HANDReturns_PREFIX + "SPECIAL_SAW_NAME",
+                skillDescriptionToken = HANDReturns_PREFIX + "SPECIAL_SAW_DESCRIPTION",
+                skillIcon = assetBundle.LoadAsset<Sprite>("texSpecialHammerIcon"),
+
+                activationState = new EntityStates.SerializableEntityStateType(typeof(HammerSwing)),
+                activationStateMachineName = "Weapon2",
+                interruptPriority = EntityStates.InterruptPriority.Skill,
+
+                baseRechargeInterval = 10f,
+                baseMaxStock = 1,
+                stockToConsume = 1,
+
+                isCombatSkill = true,
+                mustKeyPress = false,
+            });
+
+            Skills.AddSpecialSkills(bodyPrefab, specialHammerSkillDef);
+            Skills.AddSpecialSkills(bodyPrefab, specialSawSkillDef);
         }
         #endregion skills
         

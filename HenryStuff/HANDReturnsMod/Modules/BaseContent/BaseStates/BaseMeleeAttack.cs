@@ -2,18 +2,14 @@
 using RoR2;
 using RoR2.Audio;
 using RoR2.Skills;
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace HANDReturns.Modules.BaseStates
-{
-    public abstract class BaseMeleeAttack : BaseSkillState, SteppedSkillDef.IStepSetter
-    {
-        public int swingIndex;
+namespace HANDReturns.Modules.BaseStates {
+    public abstract class BaseMeleeAttack : BaseSkillState, SteppedSkillDef.IStepSetter {
+        public int punchIndex;
 
-        protected string hitboxGroupName = "SwordGroup";
+        protected string hitboxGroupName = "PunchGroup";
 
         protected DamageType damageType = DamageType.Generic;
         protected float damageCoefficient = 3.5f;
@@ -76,7 +72,7 @@ namespace HANDReturns.Modules.BaseStates
 
         protected virtual void PlayAttackAnimation()
         {
-            PlayCrossfade("Gesture, Override", "Slash" + (1 + swingIndex), playbackRateParam, duration, 0.05f);
+            PlayCrossfade("Gesture, Override", "Slash" + (1 + punchIndex), playbackRateParam, duration, 0.05f);
         }
 
         public override void OnExit()
@@ -205,18 +201,18 @@ namespace HANDReturns.Modules.BaseStates
         public override void OnSerialize(NetworkWriter writer)
         {
             base.OnSerialize(writer);
-            writer.Write(swingIndex);
+            writer.Write(punchIndex);
         }
 
         public override void OnDeserialize(NetworkReader reader)
         {
             base.OnDeserialize(reader);
-            swingIndex = reader.ReadInt32();
+            punchIndex = reader.ReadInt32();
         }
 
         public void SetStep(int i)
         {
-            swingIndex = i;
+            punchIndex = i;
         }
     }
 }
