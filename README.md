@@ -13,18 +13,29 @@ HAN-D is a slow but tough janitor bot, always ready for any type of work with a 
 
 HAN-D's kit remains largely unchanged from Risk of Rain Returns, adapted into a 3d environment, and boasting a brand new utility to make him stand out as a support character!
 
-<p><font color="#82e0aa">Primary | PROTOCOL - HURT</font></p>
-<p>- Apply force to all combatants for <font color="#f5b041">100% damage</font>. Every <font color="#f5b041">4th</font> hit gives a Custodian Drone.</p>
+Primary | PROTOCOL - HURT
+- Apply force to all combatants for 100% damage. Every 4th hit gives a Custodian Drone.
 
-<p><font color=" #82e0aa">Secondary | HEALTH_DRONE.HND</font></p>
-<p>- <font color="#85c1e9">Agile.</font> Fire a seeking Drone for <font color="#f5b041">100% damage</font>, gaining <font color="#7dcea0">health</font> on hit. <font color="#85c1e9">Gain Drones by neutralizing combatants</font>.</p>
+Secondary | HEALTH_DRONE.HND
+- Agile. Fire a seeking Drone for 100% damage, gaining health on hit. Gain Drones by neutralizing combatants.
 
-<p><font color="#82e0aa">Secondary Alt | SPEED_DRONE.NMD</font></p>
-<p>- Aim and fire a fast Drone for  <font color="#f5b041">100% damage</font>, briefly increasing attack speed on hit. <font color="#85c1e9">Gain Drones by neutralizing combatants</font>.</p>
+Secondary Alt | SPEED_DRONE.NMD
+- Aim and fire a fast Drone for 100% damage, briefly increasing attack speed on hit. Gain Drones by neutralizing combatants.
 
-<p><font color="#82e0aa">Secondary Alt | BLAST_DRONE.RMR</font></p>
-<p>- <font color="#f5b041">Stunning.</font> Lock and fire an exploding Drone for <font color="#f5b041">100% damage</font>, extending Overclock on hit. <font color="#85c1e9">Gain Drones by neutralizing combatants</font>.</p>
+Secondary Alt | BLAST_DRONE.RMR
+- Stunning. Lock and fire an exploding Drone for 100% damage, extending Overclock on hit. Gain Drones by neutralizing combatants.
 
+Utility | PROTOCOL - OVERCLOCK
+- Briefly increase attack and movement speed by 30%. Use again to boost yourself forward. Hits extend duration.
+
+Utility Alt | PROTOCOL - ENHANCE
+- Briefly upgrade your Drones, gaining additional bonuses while orbiting. Upgraded drones can be used on allies. Hits extend duration.
+
+Special | PROTOCOL - REASSEMBLY
+- Stunning. Charge your hammer, dealing 500%-2000% damage to all combatants. Charge speed scales with attack speed.
+
+Special Alt | PROTOCOL - DISASSEMBLY
+- Rip and tear combatants apart, dealing 5x95% damage. Damage decays while held. Scales with attack speed.",
 
 - ## Concept art, progress, and gallery
 
@@ -39,14 +50,17 @@ Move the ReikaChang-HANDReturns directory inside /RiskofRain2/profiles/yourchose
 
 - ## Credits
 
-Ada Phoebe - Main developer
+Reika Chang - Main developer
 
 Don Quixote Fumo - General help
 
 Translators:
 - Phoonyx428 - Spanish
-- enamoured - French
-- GoldGoldfish - Turkish
+- enamoured | IbanPlay - French
+- GoldGoldfish | Battle Bee - Turkish
 - EcIipse | Arae - Portuguese
 - Don Quixote Fumo | soccmuttpet - Chinese
 - Pengolin, Fire Devourer | LordKabewm - Russian
+- Mrrp - Korean
+- Nikolaier - German
+- Fred - Italian
