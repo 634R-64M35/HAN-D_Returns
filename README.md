@@ -1,5 +1,8 @@
 # HAN-D Returns
 
+
+### THIS MOD IS STILL A WORK IN PROGRESS, HALF THE THINGS HERE AREN'T IMPLEMENTED YET
+
 HAN-D is a slow but tough janitor bot, always ready for any type of work with a wide array of Custodian Drones by his side, hop into any battle alone or with fellow workers!.
 
 - Adds HAN-D as a tanky robot, coming back from Risk of Returns to help his fellow survivors escape the planet!
@@ -38,6 +41,10 @@ Special Alt | PROTOCOL - DISASSEMBLY
 - Rip and tear combatants apart, dealing 5x95% damage. Damage decays while held. Scales with attack speed.",
 
 - ## Concept art, progress, and gallery
+
+[![HAN-D hammer pose](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/Hammer.png)](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/Hammer.png)
+[![HAN-D lobby pose](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/Pose.png)](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/Pose.png)
+[![HAN-D lobby pose](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/texHANDAchievement.png)](https://github.com/634R-64M35/HAN-D_Returns/blob/main/Blender/texHANDAchievement.png)
 
 
 - ## Known bugs and bug reports
