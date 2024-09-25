@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 100
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 51
+  controlID: 129
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 92
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 53
+  controlID: 93
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -523,9 +523,7 @@ MonoBehaviour:
   m_InspectTab:
     m_Data:
       m_BundlePaths: []
-      m_BundleFolders:
-      - path: C:/Users/Ada Phoebe/Desktop/Stuff/Henry/HANDReturns/HANDReturnsProject/AssetBundles
-        m_ignoredFiles: []
+      m_BundleFolders: []
     m_BundleTreeState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
@@ -620,22 +618,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/HandyAssets/HandyBundle/Icons
+    - Assets/Assets/HandyAssets/HandyBundle/Animation
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/HandyAssets/HandyBundle/Icons
+  - Assets/Assets/HandyAssets/HandyBundle/Animation
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Ada Phoebe\Desktop\Stuff\RoR2Mods
+  m_LastProjectPath: C:\Users\Ada Phoebe\Desktop\Stuff\HAN-D_Returns\RoR2Mods
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: 064f0000
-    m_LastClickedID: 20230
+    m_SelectedIDs: fa4e0000
+    m_LastClickedID: 20218
     m_ExpandedIDs: 00000000ec4e0000ee4e0000f04e0000f24e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -796,9 +794,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 564f0000
+      m_SelectedIDs: fa4e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: faf9ffff38fbffff
+      m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1082,9 +1080,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0534004, y: 1.6728356, z: 0.63250864}
+    m_Target: {x: 0.7890229, y: 1.8131421, z: 0.71856105}
     speed: 2
-    m_Value: {x: 1.0534004, y: 1.6728356, z: 0.63250864}
+    m_Value: {x: 0.7890229, y: 1.8131421, z: 0.71856105}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
